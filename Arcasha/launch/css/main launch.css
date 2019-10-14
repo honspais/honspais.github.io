@@ -1,0 +1,83 @@
+body{
+	font-family: "Montserrat", sans-serif;
+	padding: 0;
+	margin: 0;
+	background:#bcd1c7;
+}
+h1,h2,h3,h4,h5{
+	font-weight: 900;
+	text-transform: uppercase;
+}
+h2{
+	font-size: 20px;
+	letter-spacing: 0.1em;
+	border-bottom: 3px solid #000;
+	
+}
+audio{
+	height: 20px;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+ul,li{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+.offer{
+	text-align: center;
+	letter-spacing: 0.1em;
+	margin: 0 auto;
+}
+.content{
+	min-height: 700px;
+}
+.Head_text{
+	
+}
+.music{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.music p{
+	margin-right: 30px;
+}
+
+.down{
+	text-decoration: none;
+	color: #000;
+	font-size: 14px;
+	margin-left: 30px;
+}
+nav{
+	margin-left: auto;
+	width: 378px;
+	height: 30px;
+}
+.topnav{
+	font-size: 14px;
+	margin-top: 10px;
+}
+.topnav a{
+	color: #000 ;
+	text-align: center;
+	padding: 14px 16px;
+	font-size: 15px;
+	letter-spacing: 0.1em;
+}
+.topnav a:hover{
+	border-bottom: 2px solid #ff2b4a;
+}
+
+.topnav .icon{
+	display: none;
+}
+
