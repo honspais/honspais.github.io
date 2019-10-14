@@ -4,5 +4,5 @@
 
 [Philip J.Fry](https://honspais.github.io/resume Fry/)
 
-[Blastbeats](https://honspais.github.io/Blast/)
+[Blastbeats](https://honspais.github.io/Beat-fin/)
 
