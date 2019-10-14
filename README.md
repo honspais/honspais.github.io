@@ -2,7 +2,7 @@
 
 [BS braah](https://honspais.github.io/Test/)
 
-[Philip J. Fry](https://honspais.github.io/resume Fry/)
+[Philip J.Fry](https://honspais.github.io/resume Fry/)
 
-[Blastbeats](https://honspais.github.io/Arcasha/)
+[Blastbeats](https://honspais.github.io/Blast/)
 
