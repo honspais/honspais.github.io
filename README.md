@@ -1,4 +1,4 @@
-# Сатичная верстка
+# Статичная верстка
 
 [BS braah](https://honspais.github.io/Test/)
 
