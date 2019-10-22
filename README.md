@@ -6,5 +6,5 @@
 
 [Blastbeats](https://honspais.github.io/Beat-fin/)
 
-[heADER](https://honspais.github.io/Header/)
+[heADER](https://honspais.github.io/Head/)
 
