@@ -1,0 +1,117 @@
+
+body{
+	margin:0;
+	padding:0;
+	font-family: 'a_AvanteInt', sans-serif;
+}
+/*ШИФТЫ */
+@font-face {
+    font-family: 'Gunny Rewritten';
+    src: url('../fonts/GunnyRewritten.eot');
+    src: url('../fonts/GunnyRewritten.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GunnyRewritten.woff2') format('woff2'),
+        url('../fonts/GunnyRewritten.woff') format('woff'),
+        url('../fonts/GunnyRewritten.ttf') format('truetype'),
+        url('../fonts/GunnyRewritten.svg#GunnyRewritten') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'a_AvanteInt';
+    src: url('../fonts/AAvanteIntBook.eot');
+    src: url('../fonts/AAvanteIntBook.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AAvanteIntBook.woff2') format('woff2'),
+        url('../fonts/AAvanteIntBook.woff') format('woff'),
+        url('../fonts/AAvanteIntBook.ttf') format('truetype'),
+        url('../fonts/AAvanteIntBook.svg#AAvanteIntBook') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/*-------------------------*/
+
+.header{
+	background: url(../img/Fon.png)no-repeat center;
+	 background-size: 100%;
+	display: flex;
+	justify-content: space-between;
+
+}
+.logo{
+	padding: 36px 65px;
+	width: 182px;
+}
+.logo-img{
+}
+.midlle-header{
+	width: 475px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.text{
+	display: flex;
+	justify-content: space-between;
+	width: 311px;
+	margin-left: 76px;
+	height: 100px;
+
+}
+.text1{
+	 font-family: 'Gunny Rewritten',sans-serif;
+	font-size: 38px;
+	color:#1c3666;
+}
+.wraper-text{
+	font-family: 'Gunny Rewritten',sans-serif;
+	font-size: 14../fonts/px;
+	border:1px solid #ff7f50;
+	color:#ff7f50;
+	height: 16px;
+    padding: 3px 2px;
+    margin-top: 59px;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+.text3{
+	margin:0;
+	width: 475px;
+	color:#ff7f50;
+	font-size: 22px;
+}
+.item{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+}
+.item p{
+	color:#1c3666;
+	font-size: 14px;
+}
+.icons{
+	margin: 0 auto;
+    text-align: center;
+    height: 
+}
+.last-block{
+    width: auto;
+    margin-top: 12%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-block3{
+	font-size: 24px;
+	color:#ff7f50;
+	text-decoration: none;
+}
+.text-block3:after{
+	content: '';
+    display: block;
+	height: 181px;
+	width: 1px;
+	background: #1c3666;
+    margin-top: -55%;
+    margin-left: -15%;
+}
