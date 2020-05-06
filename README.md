@@ -8,4 +8,4 @@
 
 [heADER](https://honspais.github.io/Head/)
 
-[ЭлектроИнструмент](honspais.github.io/Electro/)
+[Electro](honspais.github.io/Electro/)
