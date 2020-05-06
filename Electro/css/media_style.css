@@ -1,0 +1,247 @@
+ @media screen and (max-device-width: 1250px) {
+    .container{
+    	padding:0;
+    }
+    .instrument{
+    	padding:0;
+    }
+   }
+ @media screen and (max-device-width: 1050px) {
+ 	.text-li{
+ 		padding-top: 60%;
+ 	}
+
+   .stolb1 {
+    width: 180px;
+    height: auto;
+    margin-right: 35px;
+	}
+	.stolb2 {
+    width: 180px;
+    height: auto;
+    margin-right: 35px;
+	}
+	.stolb3 {
+    width: 180px;
+    height: auto;
+    margin-right: 35px;
+	}
+	.stolb4 {
+    width: 180px;
+    height: auto;
+
+	}
+	.nameIst{
+		height: 180px;
+		width: 190px;
+		margin-right: 0;
+    	margin-left: 0;
+	}
+		#SHP{
+		background-size: 70px 70px;
+	}
+
+	#DRL{
+		background-size: 70px 70px;
+	}
+	#MIX{
+		background-size: 90px 70px;
+	}
+	#IVT{
+		background-size: 70px 70px;
+	}
+	#KRP{
+		background-size: 70px 70px;
+	}
+	#LZB{
+		background-size: 70px 70px;
+	}
+	#CMP{
+		background-size: 70px 70px;
+	}
+	#GRV{
+		background-size: 70px 70px;
+	}
+	#PRF{
+		background-size: 100px 70px;
+	}
+	#CRP{
+		background-size: 70px 70px;
+	}
+	#GNR{
+		background-size: 70px 70px;
+	}
+	#RM{
+		background-size: 70px 70px;
+	}
+	#USM{
+		background-size:70px 70px;
+	}
+	#TRC{
+		background-size: 90px 70px;
+	}
+	#BZP{
+		background-size: 70px 70px;
+	}
+	#RI{
+		background-size: 70px 70px;
+	}
+	#SM{
+		background-size: 70px 70px;
+	}
+	#MFI{
+		background-size: 70px 70px;
+	}
+	#TRM{
+		background-size: 70px 70px;
+	}
+
+}
+@media screen and (max-device-width: 880px) {
+	.instrument{
+		flex-direction: column;
+	}
+	.stolb1 {
+    width: 40%;
+    height: auto;
+    margin-right: 35px;
+    margin-left: 45px;
+}
+	.stolb2 {
+    width: 40%;
+    height: auto;
+    margin-right: 35px;
+    margin-left: 45px;
+}
+	.stolb3{
+    width: 40%;
+    height: auto;
+    margin-right: 35px;
+    margin-left: 45px;
+}
+	.stolb4{
+    width: 40%;
+    height: auto;
+    margin-right: 35px;
+    margin-left: 45px;
+}
+.nameIst{
+	width: 90%;S
+}
+.text-li{
+ 		padding-top: 0;
+ 	}
+ .offer{
+ 	width: auto;
+ }
+}
+@media screen and (max-device-width: 610px) {
+	.offer{
+		top:5%;
+		text-align: left;
+		margin-right: 15px;
+	}
+	.stolb2{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.stolb4{
+		margin-right: 0;
+		margin-left: 0;
+	}
+}
+@media screen and (max-device-width: 610px) {
+	.grup1{
+		flex-direction: column;
+	}
+	.grup2{
+		flex-direction: column;
+	}
+	.stolb1{
+		width: auto;
+		margin: 0;
+	}
+	.stolb2{
+		width: auto;
+	}
+	.stolb3{
+		width: auto;
+		margin:0;
+	}
+	.stolb4{
+		width: auto;
+	}
+	.nameIst{
+		width: 99%;
+		height: 50px;
+		margin-bottom: 0;
+	}
+	#SHP{
+	background: #d3af7e;
+}
+
+	#DRL{
+		background: #d3af7e;
+	}
+	#MIX{
+		background: #d3af7e;
+	}
+	#IVT{
+		background: #d3af7e;
+	}
+	#KRP{
+		background: #d3af7e;
+	}
+	#LZB{
+		background: #d3af7e;
+	}
+	#CMP{
+		background: #d3af7e;
+	}
+	#GRV{
+		background: #d3af7e;
+	}
+	#PRF{
+		background: #d3af7e;
+	}
+	#CRP{
+		background: #d3af7e;
+	}
+	#GNR{
+		background: #d3af7e;
+	}
+	#RM{
+		background: #d3af7e;
+	}
+	#USM{
+		background: #d3af7e;
+	}
+	#TRC{
+		background: #d3af7e;
+	}
+	#BZP{
+		background: #d3af7e;
+	}
+	#RI{
+		background: #d3af7e;
+	}
+	#SM{
+		background: #d3af7e;
+	}
+	#MFI{
+		background: #d3af7e;
+	}
+	#TRM{
+		background: #d3af7e;
+	}
+	.text-li{
+		font-weight: bold;
+	}
+	.offer{
+		top: 3%;
+    	font-size: 12px;
+	}
+	.footer_index{
+		font-size: 14px;
+	}
+}

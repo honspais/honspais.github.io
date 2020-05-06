@@ -1,0 +1,141 @@
+body{
+	font-family: Sansation,sans-serif;
+	padding:0;
+	margin:0;
+	
+}
+@font-face{
+
+font-family: 'comi';
+
+src: url('../../fonts/comi2.ttf');
+
+
+
+font-weight: normal;
+
+font-style: normal;
+
+}
+@font-face{
+
+font-family: '14722';
+
+src: url('../fonts/14722.ttf');
+
+
+
+font-weight: normal;
+
+font-style: normal;
+
+}
+ul,li,a{
+	text-decoration: none;
+	 list-style-type: none;
+	 color:#fff;
+}
+h1{
+	display:block;
+	text-transform: uppercase;
+	text-align: center;
+	margin:0 auto;
+	font-family: 'comi';
+	font-size: 45px;
+	letter-spacing: 0.3em;
+	margin-left: 4%;
+	color: #d544a3a6;
+	font-weight: normal;
+	text-shadow: .1vw 0vw .25vw #ffd8d8, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8, .1vw 0vw 0vw #f2cb57, .2vw 0vw 0vw #f257e1, .4vw 0vw 0vw #f25798, .1vw 0vw .1vw #f25757, .2vw 0vw .1vw #f25757, .4vw 0vw .1vw #f25757, .1vw 0vw 2vw #f25757, .2vw 0vw 2vw #f25757, .4vw 0vw 2vw #f257e1, .1vw 0vw 1vw #e50b90;
+}
+.container{
+	padding: 0 3%;
+	margin: 0 auto;
+}
+header{
+	background: #00000091;
+	width: auto;
+	height: 175px;
+}
+.bg{
+	background: url('../../img/Fon1.jpg') center;
+	z-index: -1;
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 340px;
+}
+.heading{
+	/*display: flex;
+	justify-content: space-between;
+	align-items: center;*/
+	padding-top: 2%;
+}
+.logo{
+	width: 27vh;
+}
+.offer{
+	line-height: 1.5em;
+	text-align: right;
+	color: #f9f9f9;
+	font-weight: bold;
+	width: 30%;
+	font-size: 15px;
+	position: absolute;
+	left: 60%;
+	bottom: ;
+	top: 10%;
+}
+/*//dfdfdf*/
+.catalog{
+	width: auto;
+	min-height: 600px;
+	background: #dddada;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.spisok{
+	margin:0 auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.Map{
+	margin-top:100px;
+	width: 300px;
+	text-align: center;
+	
+}
+.footer{
+	width: auto;
+	height: 300px;
+	background: #051315;
+	color:#fff;
+}
+.footer_index{
+	padding-top: 10%;
+	text-align: center;
+	line-height: 1.5;
+	color:#fff;
+}
+.contact{
+	text-decoration: none;
+	color:#fff;
+}
+.nameInst{
+	color:#280303;
+	font-weight: bold;
+}
+.nameInst:hover{
+	text-shadow: 0px 2px 4px;
+	transition: 0.3s;
+}
+.intro_tx{
+	width: auto;
+	color:#280303;
+}
+.price{
+
+}
+.cena{
+	color: #f41111;
+}

@@ -1,0 +1,50 @@
+ @media screen and (max-device-width: 920px) {
+ 	.prwy{
+ 		width: 100%;
+ 	}
+ 	.add_info{
+ 		width: 100%;
+ 	}
+ @media screen and (max-device-width: 800px) {
+ 	.info{
+ 		flex-direction: column;
+ 	}
+ 	.info_case{
+ 		width: 95%;
+ 	}
+ 	.offer{
+		width: auto;
+		top:5%;
+		margin-right: 15px;
+	}
+ 	}
+ @media screen and (max-device-width: 600px) {
+	.offer{
+		font-size: 12px;
+	}
+	.name_case{
+		font-size: 25px;
+	}
+	.upName{
+		font-size: 22px;
+	}
+	.set_info{
+		font-size: 13px;
+	}
+	.footer_index{
+ 		font-size: 14px;
+ 	}
+ 	}
+ @media screen and (max-device-width: 450px) {
+ 	.offer{
+ 		font-weight: normal;
+ 		left:45%;
+ 		margin-right: 0;
+ 	}
+ 	.container{
+ 		padding:0;
+ 	}
+ 	.logo{
+ 		width: 23vh;
+ 	}
+ }
