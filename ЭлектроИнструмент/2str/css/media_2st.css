@@ -1,0 +1,30 @@
+ @media screen and (max-device-width: 1000px) {
+ 	.Map{
+ 		width: 250px;
+ 	}
+   
+   }
+    @media screen and (max-device-width: 840px) {
+ 	.Map{
+ 		width: 200px;
+ 	}
+	.offer{
+		width: auto;
+		font-size: 14px;
+		top:5%;
+		margin-right: 15px;
+	}
+   
+   }
+   @media screen and (max-device-width: 470px) {
+ 	.Map{
+ 		width: 100%;
+ 	}
+ 	.offer{
+ 		font-size: 10px;
+ 	}
+ 	.footer_index{
+ 		font-size: 14px;
+ 	}
+   
+   }
