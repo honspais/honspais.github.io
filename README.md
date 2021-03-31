@@ -10,4 +10,4 @@
 
 [Electro](https://honspais.github.io/Electro/)
 
-[Vladick](https://honspais.github.io/Vladick/)
+
