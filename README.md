@@ -12,4 +12,4 @@
 
 [Dog](https://honspais.github.io/Dog/)
 
-[PPC](https://honspais.github.io/PingPongCult/)
+[PPC](https://honspais.github.io/PingPongCult/Index.html)
