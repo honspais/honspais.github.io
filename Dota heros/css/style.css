@@ -1,0 +1,391 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", Arial, sans-serif;
+    background: url(../img/bg_4.jpg) no-repeat fixed ;
+}
+h1,h2,h3,h4,h5{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width:1400px;
+    margin: 0 auto;
+}
+.nav{
+
+align-items: center;
+padding-top: 10px;
+background: #2b2e2f;
+}
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrap-two{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-dota{
+    max-width: 100px;
+    width: 70%;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+.menu {
+    display:flex;
+    justify-content:space-between;
+    margin-right: 20px;
+    margin-bottom: 0;
+    list-style: none;
+    width: 300px;
+}
+.item-menu{
+    color:#23aad6;
+    border-bottom: 1px solid transparent;
+    transition: 0.5s ease;
+    padding-bottom: 5px;
+}
+.item-menu:hover{
+    padding-bottom: 5px;
+    border-bottom: 1px solid #23aad6;
+}
+.slider{
+ background: url(../img/bg_1.jpg) center;
+ 
+}
+
+.slider-item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider-item:nth-child(2){
+    flex-direction: row-reverse;
+}
+.icon-item-slider{
+    margin-right: 200px;
+}
+.promo{
+    margin-right: 200px;
+}
+.style-icon{
+    height: 80vh;
+}
+.game-name{
+    font-family: "Nothing You Could Do", cursive;
+    font-size: 30px;
+    color:#fac564;
+}
+.name-heros{
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 1.5;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+.heros-name-link{
+    color:#fac564;
+}
+.phrase{
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: white;
+}
+
+.content{
+background: url(../img/bg_4.jpg)no-repeat fixed;
+background-size: cover;
+}
+.content-title{
+    text-align: center;
+    padding-top: 50px;
+    margin: 0;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+.info{
+width: 400px;
+}
+.img-heros{
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    width: 100%;
+    height: 270px;
+    overflow: hidden;
+}
+.title-heros{
+    text-align: center;
+}
+.link-heros{
+    text-transform: uppercase;
+    font-size: 20px;
+    color:#fff;
+    border-bottom: 1px solid transparent;
+    transition: 0.5s ease;
+}
+.link-heros:hover{
+ border-bottom: 1px solid #fff;
+}
+.text-heros{
+    color:gray;
+    text-align: justify;
+}
+.foot{
+    background: #101315;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-title{
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+
+/* blog csss style start*/ 
+
+.slide{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 90px;
+    position: relative;
+}
+.blog-title{
+    font-family: "Josefin Sans", Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #fff;
+    line-height: 1.5;
+    font-weight: normal;
+    letter-spacing: 1px;
+
+}
+.blog-text-title{
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color:#fff;
+}
+.abaut{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2b2e2f;
+}
+.img-abaut{
+    width: 700px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    
+}
+.filter{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    opacity: .5;
+}
+.photo-abaut{
+}
+.abaut-title{
+    font-family: "Josefin Sans", Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #b93c48;
+    line-height: 1.5;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+.abaut-full-text{
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+.abaut-text {
+    font-family: "Josefin Sans", Arial, sans-serif;
+    color:gray;
+    text-align: justify;
+}
+
+/* section skill heros*/
+.skill{
+    background: url(../img/bg_4.jpg) no-repeat fixed ;
+}
+.name-section{
+    font-family: "Josefin Sans", Arial, sans-serif;
+    text-align: center;
+    color:#fff;
+    font-size: 30px;
+    font-weight: 400;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 100px 0 50px 0;
+}
+.skill-heros{
+    text-align: center;
+    color: #fff;
+   width: 20%;
+}
+
+.name-skill{
+    font-family: "Josefin Sans", Arial, sans-serif;
+    text-transform: uppercase;
+    color:#b93c48;
+    line-height: 1.5;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+.description-skill{
+    text-align: justify;
+    color:#23aad6;
+}
+.setting-skill{
+    text-align: justify;
+}
+
+
+
+
+/* end section skill heros*/
+
+/* start style items*/
+.wrap-items-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name-items-section{
+    font-family: "Josefin Sans", Arial, sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 100px 0 50px 0;
+}
+.items-line-one{
+    display: flex;
+    justify-content: space-around;
+}
+.items-line-two{
+    display: flex;
+    justify-content: space-around;
+}
+.heros-item{
+    display: flex;
+}
+.icon-items{
+    width: 248px;  
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.discription-items{
+    width: 200px;
+    
+    padding: 1.5rem;
+}
+.name-items{
+ text-transform: uppercase;
+ color: #b93c48;
+}
+.text-items{
+    color: #fff;
+}
+.price-items{
+    color:#fac564;
+}
+/*end style items*/
+
+
+/* section number*/
+.presence{
+    height: 150px;
+    background: #2b2e2f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-number{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+}
+.number{
+    font-weight: 400;
+    font-size: 30px;
+    color: #a60f17;
+}
+.discription-number{
+    font-weight: 400;
+    font-size: 18px;
+    color:#23aad6;
+}
+/*end number section*/
+/* start bag section*/
+.wrapper{
+    display: flex;
+    align-items: center;
+}
+.photo-heros{
+    height: 700px;
+    width: 400px;
+    overflow: hidden;
+    
+}
+.bag-heros{
+   display: flex; 
+}
+.column-item{
+    width: 300px;
+    text-align: center;
+    color: #fff;
+    margin-left: 40px;
+}
+.discrip-bag{
+    text-align: justify;
+}
+.icon-bag{
+    background-size: cover;
+    height: 90px;
+    width: 90px;
+    border-radius: 5%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+/*end bag section*/
+
+/*blog csss style end*/
