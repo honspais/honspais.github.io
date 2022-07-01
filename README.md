@@ -16,4 +16,4 @@
 
 [Blick css effekt](https://honspais.github.io/blick/)
 
-[Text effect](https://honspais.github.io/Text effect/)
+[Text effect](https://honspais.github.io/TextEffect/)
