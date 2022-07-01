@@ -1,0 +1,18 @@
+.container{
+    height: 100vh;
+    background-color: rgb(64 72 76);
+    display: grid;
+    place-items: center;
+}
+.picture{
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 30px;
+    background: url(../img/rick.jpeg) fixed center no-repeat;
+    background-size: contain;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgb(0 0 0 / 37%);
+    max-width: 50%;
+    text-align: center;
+}
