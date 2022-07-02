@@ -1,0 +1,35 @@
+button{
+    position: relative;
+    display: inline-block;
+    padding: 15px 25px;
+    font: inherit;
+    letter-spacing: 2px;
+    color:tomato;
+    background-color: transparent;
+    border: 2px solid tomato;
+    border-radius: 4px;
+    cursor: pointer;
+    overflow: hidden;
+}
+button::after{
+    content: attr(data-text);
+    position: absolute;
+    font: inherit;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: 
+    translate(-50%,-50%) scale(5);
+    width: 100%;
+    color: tomato;
+    opacity: 0;
+    transition: transform .25s;
+}
+button:hover::after{
+    transform:
+     translate(-50%,-50%) scale(1);
+    opacity: 1;
+}
+button:hover{
+    color: transparent;
+}
